@@ -1,0 +1,243 @@
+
+.navbar {
+  background: linear-gradient(135deg, #FDFCF9 0%, #F5F0E1 100%);
+  padding: 0.1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+  border-bottom: 1px solid rgba(200, 169, 81, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  position: relative;
+  margin-left: -2.5rem;
+}
+
+.logo img {
+  height: 170px;
+  width: auto;
+  transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.navbar.scrolled .logo img {
+  height: 160px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05));
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 3rem;
+  position: relative;
+}
+
+.nav-links a {
+  color: #8B1C1C;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease;
+  padding: 0.75rem 0;
+  position: relative;
+  font-family: 'Avenir Next', 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  color:#14452F;
+}
+
+.nav-links a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #C8A951;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.nav-links a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.nav-links a.active {
+  color: #8B1C1C;
+  font-weight: 600;
+}
+
+.nav-links a.active::before {
+  visibility: visible;
+  transform: scaleX(1);
+  background-color: #8B1C1C;
+  height: 2px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #14452F;
+  z-index: 1001;
+  transition: all 0.3s ease;
+}
+
+.menu-icon:hover {
+  color: #8B1C1C;
+  transform: scale(1.1);
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Premium Button Style */
+.cta-button {
+  background: linear-gradient(135deg, #C8A951 0%, #D4B468 100%);
+  color: #14452F;
+  padding: 0.75rem 1.75rem;
+  border-radius: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 15px rgba(200, 169, 81, 0.3);
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #B89A40 0%, #C8A951 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 169, 81, 0.4);
+  color: #FDFCF9;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .gujarati-signature {
+    display: none;
+  }
+  
+  .navbar-container {
+    padding: 0 1.5rem;
+    justify-content: space-between;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.7rem 0;
+    background: #FDFCF9;
+  }
+  
+  .logo img {
+    height: 90px;
+  }
+  
+  .navbar.scrolled .logo img {
+    height: 85px;
+  }
+  
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #FDFCF9 0%, #F5F0E1 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+    z-index: 1000;
+  }
+  
+  .nav-links.active {
+    transform: translateX(0);
+  }
+  
+  .nav-links li {
+    margin: 2rem 0;
+  }
+  
+  .nav-links a {
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #14452F;
+  }
+  
+  .nav-links a::before {
+    height: 2px;
+  }
+  
+  .cta-button {
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 992px) {
+  .nav-links li {
+    margin-left: 1.75rem;
+  }
+  
+  .nav-links a {
+    font-size: 1.05rem;
+  }
+  
+  .logo img {
+    height: 95px;
+  }
+  
+  .navbar.scrolled .logo img {
+    height: 90px;
+  }
+  
+  .cta-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
