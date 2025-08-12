@@ -48,14 +48,15 @@ const Home = () => {
       image: '/kurti1.jpg',
       heading: 'Style. Ready When You Are.',
       subtitle: <><GujaratiChetna /> Dresses – effortless, elevated fashion that fits right in.</>
+      
     },
     {
-      image: '/kurti_h.png',
+      image: '/kurti2.jpg',
       heading: 'Everyday Looks. Premium Vibes.',
       subtitle: "From casual fits to statement pieces — we've got your wardrobe sorted."
     },
     {
-      image: '/kurtih2.png',
+      image: '/pair3.jpg',
       heading: 'Chetna – Wear It Like You Own It',
       subtitle: 'Ready-to-wear outfits designed to turn heads, every single time.'
     }
@@ -114,7 +115,7 @@ const Home = () => {
       icon: <Sparkles size={32} />,
       shortDesc: 'Latest fashion sets, mix & match, and fabrics for every season',
       image: '/card3.jpg',
-      fullDesc: 'Explore our thoughtfully curated collections that celebrate the diversity of Indian ethnic fashion — offering a fresh variety of heavy sets, smart pairs, short tops, trendy silhouettes like corsets, regular wear, and pure dress fabric. We continuously update our stock with in-demand styles suited for all age groups and preferences.'
+      fullDesc: 'Explore our thoughtfully curated collections that celebrate the diversity of Indian ethnic fashion, offering a fresh variety of heavy sets, smart pairs, short tops, trendy silhouettes like corsets, regular wear, and pure dress fabric. We continuously update our stock with in-demand styles suited for all age groups and preferences.'
     },
     {
       id: 4,
@@ -160,7 +161,7 @@ const Home = () => {
     '/collection2.jpg',
     '/dress.jpg',
     '/collection3.jpg',
-    '/shop2.jpg'
+    '/shop2.jpg'  
    
     
   ];
@@ -197,11 +198,11 @@ const Home = () => {
       // Animate clients counter
       let clientCount = 0;
       const clientTimer = setInterval(() => {
-        clientCount += 50;
+        clientCount += 10000;
         setStats(prev => ({ ...prev, clients: clientCount }));
-        if (clientCount >= 2500) {
+        if (clientCount >= 10000) {
           clearInterval(clientTimer);
-          setStats(prev => ({ ...prev, clients: 2500 }));
+          setStats(prev => ({ ...prev, clients: 10000 }));
         }
       }, 20);
       timers.push(clientTimer);
@@ -209,11 +210,11 @@ const Home = () => {
       // Animate cities counter
       let cityCount = 0;
       const cityTimer = setInterval(() => {
-        cityCount += 1;
+        cityCount += 500;
         setStats(prev => ({ ...prev, cities: cityCount }));
-        if (cityCount >= 50) {
+        if (cityCount >= 500) {
           clearInterval(cityTimer);
-          setStats(prev => ({ ...prev, cities: 50 }));
+          setStats(prev => ({ ...prev, cities: 500 }));
         }
       }, 40);
       timers.push(cityTimer);
@@ -221,11 +222,11 @@ const Home = () => {
       // Animate years counter
       let yearCount = 0;
       const yearTimer = setInterval(() => {
-        yearCount += 1;
+        yearCount += 23;
         setStats(prev => ({ ...prev, years: yearCount }));
-        if (yearCount >= 15) {
+        if (yearCount >= 23) {
           clearInterval(yearTimer);
-          setStats(prev => ({ ...prev, years: 15 }));
+          setStats(prev => ({ ...prev, years: 23 }));
         }
       }, 80);
       timers.push(yearTimer);
@@ -233,11 +234,11 @@ const Home = () => {
       // Animate pieces counter
       let pieceCount = 0;
       const pieceTimer = setInterval(() => {
-        pieceCount += 100;
+        pieceCount += 5000;
         setStats(prev => ({ ...prev, pieces: pieceCount }));
-        if (pieceCount >= 10000) {
+        if (pieceCount >= 5000) {
           clearInterval(pieceTimer);
-          setStats(prev => ({ ...prev, pieces: 10000 }));
+          setStats(prev => ({ ...prev, pieces: 5000 }));
         }
       }, 15);
       timers.push(pieceTimer);
@@ -319,10 +320,10 @@ const Home = () => {
             >
               <h2>Welcome to <GujaratiChetna /></h2>
               <p>
-                At <GujaratiChetna />, we believe every woman deserves to express her style with confidence and comfort. Our ready-to-wear collection blends modern trends with the timeless charm of Indian design — made for real, everyday moments.
+                At <GujaratiChetna />, we believe every woman deserves to express her style with confidence and comfort. Our ready-to-wear collection blends modern trends with the timeless charm of Indian design, made for real, everyday moments.
               </p>
               <p>
-                 We specialize in premium ready-to-wear ethnic styles — from daily essentials and soft, breathable pairs to festive-ready sets, cordset styles, short tops, and handpicked dress materials. Each piece in our collection is chosen not just for its look, but for how it feels — comfortable, wearable, and true to modern Indian women.
+                 We specialize in premium ready-to-wear ethnic styles, from daily essentials and soft, breathable pairs to festive-ready sets, cordset styles, short tops, and handpicked dress materials. Each piece in our collection is chosen not just for its look, but for how it feels, comfortable, wearable, and true to modern Indian women.
               </p>
               <p>
                 Whether you're shopping for yourself or sourcing for your boutique, we offer a reliable and welcoming experience. With ready stock, trusted quality, and dedicated support, <GujaratiChetna /> has earned the confidence of thousands of women and wholesale buyers across regions.
@@ -506,7 +507,7 @@ const Home = () => {
             >
               <Package className="stat-icon" />
               <span className="stat-number">{stats.pieces.toLocaleString()}+</span>
-              <span className="stat-label">Pieces Created</span>
+              <span className="stat-label">Exclusive Pieces</span>
             </motion.div>
           </div>
         </div>
@@ -616,17 +617,17 @@ const Home = () => {
             >
               <h2>Our Philosophy</h2>
               <div className="brand-quote">
-                <span>"Not just fashion — a feeling that fits."</span>
+                <span>"Not just fashion, a feeling that fits."</span>
               </div>
               <p>
-                At chetna, we bring you carefully selected, ready-to-wear clothing made for real women and real life. Our collection includes everyday kurtis, short tops, corset , and versatile fabric pairs — all chosen for comfort, fit, and effortless style.
+                At chetna, we bring you carefully selected, ready-to-wear clothing made for real women and real life. Our collection includes everyday kurtis, short tops, corset, and versatile fabric pairs, all chosen for comfort, fit, and effortless style.
               </p>
               <p>
-                Whether you're dressing for work, a casual outing, or a festive moment, our pieces are made to feel good and look great — without the wait. No tailoring, no hassle — just high-quality garments that fit right off the rack.
+                Whether you're dressing for work, a casual outing, or a festive moment, our pieces are made to feel good and look great, without the wait. No tailoring, no hassle, just high-quality garments that fit right off the rack.
               </p>
               <p>
-                Since 2002, <GujaratiChetna /> has built its name on consistency, quality, and long-term relationships with our customers. Over the years, we've become a trusted choice for women looking for everyday ethnic wear that's comfortable, stylish, and ready to wear.  
-                We believe fashion should be easy, affordable, and reliable — and that's exactly what we've delivered for over a decade.
+                Since 2002, <GujaratiChetna /> has built its name on consistency, quality, and long-term relationships with our customers. Over the years, we've become a trusted choice for women looking for everyday ethnic wear that's comfortable, stylish, and ready to wear.
+We believe fashion should be easy, affordable, and reliable, and that's exactly what we've delivered for over a decade.
               </p>
               
               <div className="founder-signature">

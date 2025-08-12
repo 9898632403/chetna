@@ -203,7 +203,7 @@ export default function About() {
     {
       icon: <FaUsers className="icon" size={32} />,
       title: "Empowering Women",
-      description: "Ready-to-wear fashion that celebrates every woman’s individuality and strength."
+      description: "Ready to wear fashion that celebrates every woman’s individuality and strength."
     },
     {
       icon: <FaCheckCircle className="icon" size={32} />,
@@ -267,13 +267,13 @@ export default function About() {
             <div className="story-content fade-in-right">
               <h2>Our Story</h2>
               <p>
-                Founded in 2002 in the culturally rich town of <strong>Patan</strong>, <strong>Chetna Dresses</strong> began as a small local shop with a heartfelt vision by <strong>Rohit Patel</strong> — to offer high-quality, ready-to-wear ethnic clothing that every woman could feel confident and comfortable in. With just a handful of styles, deep-rooted values, and a lot of heart, we started serving our community one thoughtfully crafted outfit at a time.
+                Founded in 2002 in the culturally rich town of <strong>Patan</strong>, <strong>Chetna Dresses</strong> began as a small local shop with a heartfelt vision by <strong>Rohit Patel</strong> — to offer high-quality, ready to wear ethnic clothing that every woman could feel confident and comfortable in. With just a handful of styles, deep-rooted values, and a lot of heart, we started serving our community one thoughtfully crafted outfit at a time.
               </p>
               <p>
-                Over the years, our collection has grown, our styles have evolved, and our customers have become family. Today, Chetna stands as a trusted name in ethnic fashion — offering everything from elegant daily wear and festive sets to trending silhouettes and versatile dress materials.
+                Over the years, our collection has grown, our styles have evolved, and our customers have become family. Today, Chetna stands as a trusted name in ethnic fashion ,offering everything from elegant daily wear and festive sets to trending silhouettes and versatile dress materials.
               </p>
               <p>
-                Chetna isn’t just a brand — it’s a reflection of every woman who shops with us. Her grace, her choices, her story. And we’re proud to be part of it.
+                Chetna isn’t just a brand, it’s a reflection of every woman who shops with us. Her grace, her choices, her story. And we’re proud to be part of it.
               </p>
             </div>
           </div>
@@ -320,7 +320,7 @@ export default function About() {
       {/* Testimonial Slider */}
       <section className="testimonial-section">
         <div className="container">
-          <h2 className="testimonial-title fade-in-up">Our Craft</h2>
+          <h2 className="testimonial-title fade-in-up">Our Range</h2>
           
           <div className="fade-in-up">
             <TestimonialSlider />
@@ -333,7 +333,7 @@ export default function About() {
         <div className="container">
           <div className="quote-content">
             <blockquote className="quote-text fade-in-up">
-              "Rooted in the spirit of Patan and shaped by Rohit Patel’s vision, Chetna Dresses blends tradition with modern grace — empowering every woman to wear her culture with confidence and pride."
+              "Rooted in the spirit of Patan and shaped by Rohit Patel’s vision, Chetna Dresses blends tradition with modern grace, empowering every woman to wear her culture with confidence and pride."
             </blockquote>
             
             <div className="quote-author fade-in-up">
@@ -350,7 +350,7 @@ export default function About() {
             <div className="contact-info fade-in-left">
               <h2>Visit Us</h2>
               <p>
-                Want to explore our full ready-to-wear collection in person? Drop by our shop to browse a wide range of kurtis, tops, corset, and fabric pairs — all ready to pick and wear.  
+                Want to explore our full ready to wear collection in person? Drop by our shop to browse a wide range of kurtis, tops, corset, and fabric pairs — all ready to pick and wear.  
   Wholesale buyers are always welcome.
               </p>
               

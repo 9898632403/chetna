@@ -134,7 +134,7 @@ p {
   color: var(--primary);
 }
 
-.hero-subtitle {
+.herosubtitle {
   font-size: 1.25rem;
   max-width: 600px;
   margin-bottom: 2rem;
@@ -993,9 +993,7 @@ p {
   flex-wrap: wrap;
   scroll-behavior: smooth;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 .showroom-button {
   display: inline-flex;

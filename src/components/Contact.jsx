@@ -117,9 +117,9 @@ const Contact = () => {
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="hero-subtitle"
+            className="herosubtitle"
           >
-            Premium kurtis for resellers, boutique owners, and every woman building her dream — from home or shop — with exclusive wholesale terms.
+           Premium kurtis for resellers, boutique owners and every woman building her dream from home or shop with exclusive wholesale terms.
           </motion.p>
           
           <motion.div 
@@ -132,13 +132,13 @@ const Contact = () => {
               <div className="benefit-card">
                 <FaRupeeSign className="benefit-icon" />
                 <h4>Competitive Pricing</h4>
-                <p>Exclusive wholesale terms & manufacturer-direct rates — perfect for bulk buyers & boutique resellers</p>
+                <p>Enjoy exclusive wholesale terms with manufacturer-direct rates, ideal for bulk buyers and boutique resellers.</p>
               </div>
               
               <div className="benefit-card">
                 <FiPackage className="benefit-icon" />
                 <h4>MOQ Flexibility</h4>
-                <p>Low minimums — start with just 10 pieces per design and scale as you grow</p>
+                <p>Low minimums, starting with just 10 pieces per design so you can scale as you grow.</p>
               </div>
               
               <div className="benefit-card">
@@ -425,8 +425,7 @@ const Contact = () => {
                     )}
                   </motion.button>
                   <p className="form-note">
-                    Thanks for reaching out to Chetna. By submitting this form, you agree to be contacted by our wholesale specialists to help with your request.  
-  Rest assured, your information is transmitted securely and is never stored or shared — your privacy and trust are our top priority.
+                    Thanks for reaching out to Chetna. By submitting this form, you agree to be contacted by our wholesale specialists to help with your request. Rest assured, your information is transmitted securely and is never stored or shared. Your privacy and trust are our top priority.
                   </p>
                 </div>
               </div>
@@ -499,7 +498,7 @@ const Contact = () => {
 
               <div className="quick-contact-card">
                 <h4>Prefer to Talk Directly?</h4>
-                <p>Our friendly wholesale experts are just a call away — available daily from <strong>7:00 AM to 7:00 PM</strong>.</p>
+                <p>Our friendly wholesale experts are just a call away, available daily from <strong>7:00 AM to 7:00 PM</strong>.</p>
                 <div className="quick-contact-buttons">
                   <a href="tel:+919638681266" className="quick-contact-button">
                     <FiPhone /> Call Now
@@ -525,10 +524,9 @@ const Contact = () => {
         </div>
         
         <div className="showroom-content">
-          <h2>Step Into Our World — In Person</h2>
+          <h2>Step Into Our World in Person</h2>
           <p className="showroom-description">
-           Explore our latest collections in person at Chetna Dresses, Patan. 
-    Discover high-quality collection, receive expert guidance on trending styles and customer preferences, and access showroom-only wholesale offers tailored for serious buyers..
+           Explore our latest collections in person at Chetna Dresses, Patan. Discover high-quality pieces, get expert guidance on trending styles and customer preferences, and enjoy showroom-only wholesale offers tailored for serious buyers...
           </p>
           
           <div className="showroom-highlights">

@@ -270,7 +270,7 @@ p {
   font-weight: 400;
   opacity: 0.9;
   animation: fadeInUp 0.8s ease 0.3s both;
-  color: #0B3D2E !important;
+  
 }
 .about-page .hero .hero-subtitle {
   font-size: 2.5rem !important;
@@ -279,7 +279,7 @@ p {
 .hero-subtitle * {
   font-size: 2rem !important;
   font-weight: 400 !important;
-  color: #0B3D2E !important;
+  color: #FDFCF9 !important;
   opacity: 0.9;
   animation: fadeInUp 0.8s ease 0.3s both;
 }
@@ -739,7 +739,8 @@ p {
 /* Contact section */
 .contact-section {
   padding: 5rem 0;
-  background-color: var(--agri-green-dark);
+  background: linear-gradient(135deg, #FDFCF9, #F5F0E1);
+
 }
 
 .contact-grid {
@@ -750,13 +751,13 @@ p {
 
 .contact-info h2 {
   font-size: 3rem;
-  color: var(--white);
+  color: #8B1C1C;
   margin-bottom: 2rem;
 }
 
 .contact-info p {
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   margin-bottom: 2rem;
 }
 
@@ -770,10 +771,10 @@ p {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #14452F;
 }
 .contact-item a {
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   text-decoration: none;
   font-weight: 500; /* optional, makes it stand out */
 }
