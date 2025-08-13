@@ -140,17 +140,17 @@ const Home = () => {
     {
       text: "Chetna has redefined my wardrobe with their exquisite collection. The quality and craftsmanship are simply unmatched. Every piece tells a story of tradition and elegance.",
       author: "Riya Shah",
-      location: "Mumbai"
+
     },
     {
       text: "As a boutique owner, I've been sourcing from Chetna for a while now. Their dress materials are consistently high-quality, well-packed, and always delivered on time. My customers love them — and so do I!",
       author: "Priya Mehta",
-      location: "Delhi"
+
     },
     {
       text: "I buy in wholesale from Chetna and sell from home through WhatsApp and local groups. The quality is so good that most pieces get booked as soon as I share photos. It's helped me grow my small business without any stress.",
       author: "Kavya Patel",
-      location: "Bangalore"
+      
     }
   ];
 
