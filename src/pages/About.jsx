@@ -214,7 +214,7 @@ export default function About() {
 
   const services = [
     { icon: <FaStar className="icon" size={32} />, title: "Ready-to-Wear", description: "Tailored to your measurements" },
-    { icon: <FaLeaf className="icon" size={32} />, title: "Trusted Since 2008", description: "Over a decade of customer trust and satisfaction" },
+    { icon: <FaLeaf className="icon" size={32} />, title: "Trusted Since 2002", description: "Over a decade of customer trust and satisfaction" },
     { icon: <FaBoxOpen className="icon" size={32} />, title: "Affordable Range", description: "Comfort meets quality at the right price" },
     { icon: <FaRegStar className="icon" size={32} />, title: "Comfort-First", description: "Soft fabrics & easy fits for daily wear" },
     { icon: <FaAward className="icon" size={32} />, title: "Repeat Customers", description: "We grow through your love & referrals" },
