@@ -245,7 +245,7 @@ export default function About() {
           <div className="story-grid">
             <div className="story-images collage-grid fade-in-left">
               <div className="collage-item item-1">
-                <img src="/collection2.jpg" alt="Traditional Saree" className="story-image" />
+                <img src="/hero1.png" alt="Traditional Saree" className="story-image" />
               </div>
               <div className="collage-item item-2">
                 <img src="/kurti1.jpg" alt="Designer Kurti" className="story-image" />

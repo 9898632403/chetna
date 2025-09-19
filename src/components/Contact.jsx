@@ -172,7 +172,7 @@ const Contact = () => {
         
         <div className="hero-image-container">
           <div className="hero-image-overlay"></div>
-          <img src="/chetna_shop.jpg" alt="Wholesale Kurti Collection" className="hero-image" />
+          <img src="/shop1.png" alt="Wholesale Kurti Collection" className="hero-image" />
         </div>
       </div>
 
@@ -515,7 +515,7 @@ const Contact = () => {
 
       <div className="showroom-section">
         <div className="showroom-image-container">
-          <img src="/chetna_shop.jpg" alt="Chetna Dress Showroom" className="showroom-image" />
+          <img src="/shop22.png" alt="Chetna Dress Showroom" className="showroom-image" />
           <div className="image-overlay"></div>
           <div className="showroom-badge">
             <FiMapPin className="badge-icon" />

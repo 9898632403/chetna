@@ -45,20 +45,20 @@ const Home = () => {
   // Hero slides data
   const heroSlides = [
     {
-      image: '/kurti1.jpg',
+      image: '/hero2.png',
       heading: 'Style. Ready When You Are.',
-      subtitle: <><GujaratiChetna /> Dresses – effortless, elevated fashion that fits right in.</>
+     
       
     },
     {
-      image: '/kurti2.jpg',
+      image: '/hero3.png',
       heading: 'Everyday Looks. Premium Vibes.',
-      subtitle: "From casual fits to statement pieces — we've got your wardrobe sorted."
+     
     },
     {
-      image: '/pair3.jpg',
-      heading: 'Chetna – Wear It Like You Own It',
-      subtitle: 'Ready-to-wear outfits designed to turn heads, every single time.'
+      image: '/hero33.png',
+      
+      subtitle: 'Chetna – Wear It Like You Own It'
     }
   ];
 
@@ -114,7 +114,7 @@ const Home = () => {
       title: 'Collections',
       icon: <Sparkles size={32} />,
       shortDesc: 'Latest fashion sets, mix & match, and fabrics for every season',
-      image: '/card3.jpg',
+      image: '/hero1.png',
       fullDesc: 'Explore our thoughtfully curated collections that celebrate the diversity of Indian ethnic fashion, offering a fresh variety of heavy sets, smart pairs, short tops, trendy silhouettes like corsets, regular wear, and pure dress fabric. We continuously update our stock with in-demand styles suited for all age groups and preferences.'
     },
     {
@@ -339,7 +339,7 @@ const Home = () => {
             >
               <div className="shop-image-container">
                 <img 
-                  src="chetna_shop.jpg" 
+                  src="shop1.png" 
                   alt="Chetna Boutique"
                   className="shop-image"
                 />
