@@ -45,7 +45,7 @@ const Home = () => {
   // Hero slides data
   const heroSlides = [
     {
-      image: '/hero2.png',
+      image: '/hero22.png',
       heading: 'Style. Ready When You Are.',
      
       
